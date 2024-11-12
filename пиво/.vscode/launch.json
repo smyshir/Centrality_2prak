@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "pythonArgs": ["-Xfrozen_modules=off"],
+            "env": {"PYDEVD_DISABLE_FILE_VALIDATION": "1"}
+        }
+    ]
+}
